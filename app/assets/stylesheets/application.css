@@ -46,3 +46,26 @@
   float: left;
   height: 150px;
 }
+
+.footer-lgo {
+  margin: 3.2% 0;
+  text-align: center;
+}
+
+.footer-dividers {
+  background: url('divider.png');
+  height: 150px;
+  position: absolute;
+  width: 6px;
+}
+
+.footer-text > h3 {
+  font-size: 18px;
+  text-align: left;
+  line-height: 42px;
+  margin: 21px 0;
+  color: white;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 10px;
+}
