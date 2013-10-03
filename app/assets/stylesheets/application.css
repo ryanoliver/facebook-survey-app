@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@import "bootstrap";
+@import "home";
+
+.app-header {
+  background: #222 url('header-bg.png');
+  float: left;
+  height: 230px;
+}
+
+.app-header .app-header-logo {
+  padding: 0;
+  margin: 3.9% 0;
+  vertical-align: middle;
+}
+
+.app-header-text h1 {
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
+  line-height: 70px;
+  margin: 80px 0;
+}
+
+.app-content-wrapper {
+  background: #fafafa url('content-bg.png');
+  float: left;
+  height: 530px;
+}
+
+.app-footer-wrapper {
+  background: #222 url('footer-bg.png');
+  float: left;
+  height: 150px;
+}
